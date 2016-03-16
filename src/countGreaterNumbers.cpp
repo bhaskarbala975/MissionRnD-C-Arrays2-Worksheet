@@ -19,7 +19,10 @@ struct transaction {
 	char date[11];
 	char description[20];
 };
+int cal(char a[10]);
 
-int countGreaterNumbers(struct transaction *Arr, int len, char *date) {
+int countGreaterNumbers(struct transaction *Arr, int len, char *date)
+{
 	return -1;
 }
+
