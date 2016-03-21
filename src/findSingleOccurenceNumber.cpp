@@ -18,8 +18,8 @@ complexity .
 int findSingleOccurenceNumber(int *A, int len)
 {
 	int i, j, count = 0;
-	if (A==NULL||len<=0)
-	return -1;
+	if (A == NULL || len <= 0)
+		return -1;
 	for (i = 0; i < len; i++)
 	{
 		count = 0;
