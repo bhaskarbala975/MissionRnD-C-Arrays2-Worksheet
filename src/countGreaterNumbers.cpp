@@ -69,7 +69,7 @@ int countGreaterNumbers(struct transaction *Arr, int len, char *date)
 }
 void divide(char arr[], int i1,int dates[10],int months[10],long int years[10])
 {
-	int i, j, k;
+	int i, j;
 	char date1[5], month1[5], year1[5];
 	int date11, month11;
 	long int year11;
